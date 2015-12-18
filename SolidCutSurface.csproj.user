@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>c:\Program Files\Autodesk\AutoCAD Civil 3D 2013\acad.exe</StartProgram>
+    <StartArguments>/ld "C:\Program Files\Autodesk\AutoCAD Civil 3D 2013\AecBase.dbx" /p "&lt;&lt;C3D_Metric&gt;&gt;"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>/ld "C:\Program Files\Autodesk\AutoCAD Civil 3D 2013\AecBase.dbx" /p "&lt;&lt;C3D_Metric&gt;&gt;"</StartArguments>
+    <StartAction>Program</StartAction>
+    <StartProgram>c:\Program Files\Autodesk\AutoCAD Civil 3D 2013\acad.exe</StartProgram>
+  </PropertyGroup>
+</Project>
